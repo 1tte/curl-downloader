@@ -25,4 +25,16 @@ $ md dl/
 
 # Run the app
 $ php curl.php
+
+# Put the list name
+$ Filename list : 
+$ gross.txt
+```
+The file must by line per line like 
+```bash
+file1.jpg
+file2.jpg
+file1.txt
+file2.txt
+..etc
 ```
