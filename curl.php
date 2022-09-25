@@ -1,13 +1,11 @@
 <?php
 
-
 function downLoad($dir, $download){
 	$fuck = system('curl #PUT YOUR SHIT HERE#' -o dl/'.$download.'');
 	echo "Success download ".$download."";
 	return $fuck;
 }
 
-$dir = readline('Directory mana ? ');
 $ambilFile = readline('Filename list : ');
 $ambil_file = file_get_contents($ambilFile);
 $filename = explode("\n", $ambil_file);
