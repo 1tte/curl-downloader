@@ -6,8 +6,6 @@ Change your shit first bitch! at
 ```bash
 $fuck = system('curl #PUT YOUR SHIT HERE#' -o dl/'.$download.'');
 ```
-Thank u!
-
 
 ## How To Use
 
